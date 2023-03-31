@@ -1,0 +1,400 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* pallete */
+:root {
+
+    /* primary color blue */
+    --primary-color-darkblue05: #091B6F;
+    --primary-color-darkblue04: #0D28A6;
+    --primary-color-darkblue03: #5E70C4;
+    --primary-color-darkblue02: #AEB7E1;
+    --primary-color-darkblue01: #CFD4ED;
+
+    /* primary color lilme */
+    --primary-color-lime05: #3D7B3F;
+    --primary-color-lime04: #5CB85F;
+    --primary-color-lime03: #92D094;
+    --primary-color-lime02: #C9E7CA;
+    --primary-color-lime01: #C9E7CA;
+
+    /* color alert */
+    --alert-color-danger: #FA2C5A;
+    --alert-color-warning: #F9CC00;
+    --alert-color-success: #73CA5C;
+
+    /* color netral */
+    --netral-color-05: #151515;
+    --netral-color-04: #3C3C3C;
+    --netral-color-03: #8A8A8A;
+    --netral-color-02: #D0D0D0;
+
+    /* box shadow */
+    --shadow-low: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    --shadow-high: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* default setting */
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+    background-color: var(--primary-color-darkblue04);
+}
+
+/* navbar css */
+.navbar {
+    background-color: #F1F3FF;
+    box-shadow: var(--shadow-low);
+}
+
+.nav-link {
+    color: var(--netral-color-05);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: var(--netral-color-03);
+}
+
+.nav .btn-primary {
+    background-color: var(--primary-color-lime04);
+    border-radius: 2px;
+    border-color: var(--primary-color-lime04);
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav .btn-primary:hover {
+    background-color: var(--primary-color-lime03);
+    border-color: var(--primary-color-lime03);
+}
+
+/* homepage css */
+.homepage {
+    left: 0px;
+    top: 0px;
+    background: #F1F3FF;
+}
+
+.homepage-title {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.homepage-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.container-fluid .btn {
+    background-color: var(--primary-color-lime04);
+    border-radius: 2px;
+    border-color: var(--primary-color-lime04);
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.container-fluid .btn:hover {
+    background-color: var(--primary-color-lime03);
+    border-color: var(--primary-color-lime03);
+}
+
+.container .btn {
+    background-color: var(--primary-color-lime04);
+    border-radius: 2px;
+    border-color: var(--primary-color-lime04);
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.container .btn:hover {
+    background-color: var(--primary-color-lime03);
+    border-color: var(--primary-color-lime03);
+}
+
+/* our service css */
+.our-service {
+    margin-top: 100px;
+}
+
+.our-service h2 {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+.our-service .desc {
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.our-service .checklist {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+
+/* why use css */
+.why-use {
+    margin-top: 100px;
+}
+
+.why-use h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+.why-use .title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.card-img-top {
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+/* testimonial */
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial .desc {
+    margin-bottom: 40px;
+}
+
+.testimonial .star {
+    margin-bottom: 8px;
+}
+
+.testimonial .card {
+    border: 0px;
+    background-color: #F1F3FF;
+}
+
+/* testimonial owl carousel css */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    margin: 0px 8px;
+    margin-top: 12px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    background: var(--primary-color-lime04);
+}
+
+/* getting started css */
+.getting-started {
+    margin-top: 100px;
+}
+
+.getting-started .box {
+    background-color: var(--primary-color-darkblue04);
+    border-radius: 13px;
+}
+
+.getting-started .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.getting-started .desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+/* faq css */
+.faq {
+    margin-top: 100px;
+}
+
+.faq .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.faq .desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.faq .accordion-item {
+    margin-bottom: 16px;
+}
+
+.faq button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* footer css */
+footer {
+    margin-top: 150px;
+}
+
+.footer .address p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.footer .address a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer .servis p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.footer .servis a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer .connect p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.footer .connect img {
+    margin-right: 16px;
+}
+
+.footer .copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form-input {
+    position: relative;
+    bottom: 50px;
+    border: none;
+    box-shadow: var(--shadow-high);
+}
+
+label {
+    size: 12px;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-select {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.form-control {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.form-label {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #3C3C3C;
+}
+
+.data-card {
+    border: none;
+    box-shadow: var(--shadow-low);
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+input[type="number"]{
+    border-right: none;
+}
